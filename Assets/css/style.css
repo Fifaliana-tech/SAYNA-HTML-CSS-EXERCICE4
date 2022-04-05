@@ -1,0 +1,665 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Typographie */
+
+@font-face {
+    font-family: "font-1R";
+    src: url('../font/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "font-1B";
+    src: url('../font/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "font-1SB";
+    src: url('../font/Montserrat-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "font-1M";
+    src: url('../font/Montserrat-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: "font-2";
+    src: url('../font/Far-FromHomecomingUpdated.otf') format('woff2');
+}
+
+
+h2 {
+    font-family: 'font-1B';
+    font-size: 2.5vw;
+    color: var(--primary-white);
+}
+h3 {
+    font-family: 'font-1SM';
+    font-weight: bold;
+    font-size: 2vw;
+}
+h4 {
+    font-family: 'font-1M';
+    font-size: 1.5vw;
+}
+
+p {
+    font-family: 'font-1R';
+    font-size: 1vw;
+}
+
+/* Couleurs */
+
+:root {
+    --primary-red : #B11313;
+    --primary-yellow : #F1C530;
+    --primary-dark-blue : #114C92;
+    --primary-black : #000000;
+    --primary-white : #FFFFFF;
+}
+
+/* --BARRE DE NAVIGATION-- */
+nav {
+    background-color: var(--primary-red);
+    font-family: 'font-1R';
+}
+@media (max-width: 576px) { 
+    nav {
+        background-color: var(--primary-black);
+    }
+}
+/* Partie logo */
+
+#Logo-SAYNA {
+    width: 3vw; 
+    height: 3.5vw;
+}
+@media (max-width: 576px) { 
+    #Logo-SAYNA {
+        width: 10vw;
+        height: 10vw;
+    }
+}
+#Logo-X {
+    width: 1.5vw; 
+    height: 1.5vw;
+}
+@media (max-width: 576px) { 
+    #Logo-X{
+        width: 4vw;
+        height: 4vw;
+    }
+}
+#Logo-Marvel {
+        width: 10vw;
+        height: 4vw;
+}
+@media (max-width: 576px) { 
+    #Logo-Marvel {
+        width: 28vw;
+        height: 11vw;
+    }
+}
+
+/* Partie boutons de navigation */
+    
+.navig-boutons{
+    display: flex;
+}
+.text-white {
+    font-size: 1.7vw;
+}
+
+@media screen and (max-width: 576px) {
+    .navig-boutons{
+        display: none;
+    }
+}
+/* PARTIE ROUGE */
+/* Section rouge : part1 */
+/* SPIDERMAN */
+/* REGLAGE RESPONSIVE BACKGROUND IMAGE*/
+
+.spid-cont {
+    background-color: var(--primary-red);
+    background-image: url(../Illustration/img1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* LES TITRES */
+
+.spid-cont h1 {
+    font-family: 'font-2';
+    font-size: 5vw;
+    color: var(--primary-white);
+}
+@media (max-width: 576px) { 
+    .spid-cont h1 {
+        font-size: 6vw;
+    }
+}
+.spid-cont h2 {
+    font-family: 'font-1B';
+    font-size: 1.7vw;
+    color: var(--primary-white);
+    margin-top: 3%;
+}
+/* REGLAGE RESPONSIVE CONTENU */
+.descrip, .descrip2 {
+    margin: 15% 2%;
+}
+@media (max-width: 575.98px) { 
+    .descrip {
+        display : none;
+    }
+    
+}
+@media (min-width: 576px) {
+    
+    .descrip2 {
+        display: none;
+    }
+}
+
+/* LES BOUTONS */
+
+.boutons {
+    margin-top: 12%;
+}
+.btn-1 p,.btn-2 p {
+    font-size: 1.5vw;
+    font-family: 'font-1B';
+}
+.btn-1 {
+    color: var(--primary-red);
+    font-family: 'font-1B';
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+    background-color: var(--primary-white);
+    margin: 10px 10px 10px 0px;
+    font-size: 1vw;
+}
+
+.btn-2 {
+    color: var(--primary-white);
+    font-family: 'font-1B';
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btn-1:hover, .btn-2:hover{
+    color: var(--primary-white);
+    background: var(--primary-red);
+    border: none;
+}
+
+@media screen and (max-width: 576px) {
+    .boutons {
+        margin-top: 20px;
+        font-size: 1vw;
+    }
+    
+    .btn-1 {
+        color: var(--primary-red);
+        border-radius: 14px;
+        padding: 7px;
+        width: 80px;
+    }
+    .btn-2 {
+        color: var(--primary-white);
+        border-radius: 14px;
+        padding: 7px;
+        min-width: 80px;
+    }
+    
+}
+/* PARTIE ROUGE */
+/* Section rouge : part2 */
+/*LES SPIDERMANS AU CINE*/
+.spiderman-cine {
+    background-color: var(--primary-red);
+    background-size: 100% 100%;
+}
+/* LES TITRES */
+.spiderman-cine h2 {
+    font-family: 'font-2';
+    color: var(--primary-white);
+}
+.spiderman-cine p {
+    color: var(--primary-white);
+    text-align: justify;
+    font-size: 1vw;
+}
+/* LES CARTES */
+.les-spidermans .card {
+    width: 25%;
+    background: transparent;
+    border: none;
+}
+.les-spidermans .card-body {
+    text-align: center;
+}
+.les-spidermans .card-text{
+    font-size: 1.1vw;
+    color: var(--primary-white);
+}
+/* BOUTON */
+.les-spidermans .btn-1 {
+    font-size: 1.1vw;
+    margin: 0 0px 30px;
+}
+@media (max-width: 576px) {
+    .les-spidermans{
+        display: inline-block;
+    }
+    .spiderman-cine h2 {
+        text-align: center;
+        font-size: 4vw;
+    }
+    .spiderman-cine p {
+        text-align: center;
+        font-size: 2vw;
+    }
+    .les-spidermans .card {
+        width: 85%;
+        margin: auto;
+    }
+    .les-spidermans .card-text{
+        font-size: 2vw;
+    }
+    .les-spidermans .btn-1 {
+        font-size: 2vw;
+        margin: 0 0px 30px;
+        width: 54%;
+    }
+}
+/* DEVIENS SPIDERMAN !  */
+/* REGLAGE RESPONSIVE BACKGROUND */
+.spiderman-dev {
+    background-color: var(--primary-dark-blue);
+    background-image: url('../Illustration/img5.png');      
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+/* CONTENU */
+.spiderman-dev .dev-cont{
+    margin: 5% 5% 10% 55%;
+    width: 40%;
+    text-align: center;
+}
+@media (max-width: 575.98px) {
+    .spiderman-dev .dev-cont {
+        margin: 9%;
+        width: 85%;
+    }
+}
+@media (min-width: 576px) and (max-width: 899.98px) {
+    .spiderman-dev .dev-cont {
+        margin: 5% 5% 10% 45%;
+        width: 50%;
+    }
+}
+/* TITRE */
+.spiderman-dev h2{
+    font-family: 'font-2';
+}
+@media (max-width: 576px) {
+    .spiderman-dev h2{
+        font-size: 4vw;
+    }
+}
+/* PARAGRAPHE */
+.spiderman-dev p{
+    color: var(--primary-white);
+    font-size: 1vw;
+    margin: 4% auto;
+}
+@media (max-width: 576px) {
+    .spiderman-dev p{
+        font-size: 2vw;
+    }
+}
+/* LES INPUTS */
+.spiderman-dev .dev-cont .les-input {
+    width: 65%;
+    margin: auto;
+}
+.spiderman-dev .dev-cont input {
+    margin-bottom: 15px;
+    border-radius: 16px;
+}
+
+@media (min-width: 576px) and (max-width: 899.98px) {
+    .spiderman-dev .dev-cont .les-input {
+        width: 75%;
+        margin: auto;
+    }
+}
+/* BOUTON */
+.spiderman-dev .dev-cont .btn-2 {
+    font-size: 1vw;
+    margin: 6% auto;
+    width: 22%;
+    font-family: 'font-1R';
+}
+@media (max-width: 576px) {
+.spiderman-dev .dev-cont .btn-2 {
+    font-size: 2vw;
+    }
+}
+/* INSCRIPTION */
+
+/* REGLAGE RESPONSIVE BACKGROUND*/
+.spiderman-inscript {
+    background-color: var(--primary-red);
+    background-image: url('../Illustration/img-6.png');
+    background-size: 50%;      
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+@media (max-width: 575.98px) {
+    .spiderman-inscript {
+        background-color: var(--primary-red);
+        background-image: url(../Illustration/img6-.png);
+        background-size: 31% auto;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+    /* REGLAGE RESPONSIVE TITRE */
+    .spiderman-inscript .inscrip-cont {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 0%;
+    }
+    /* REGLAGE RESPONSIVE INPUT */
+    .spiderman-inscript .inscrip-cont .les-input {
+        width: 77%;
+        color: var(--primary-white);
+        margin-top: 10%;
+        justify-content: center;
+        margin: 10% auto;
+        margin-left: 52px;
+    }
+}
+@media (min-width: 576px) and (max-width: 899.98px) {
+    .spiderman-inscript .inscrip-cont {
+        margin: 5% 45% 10% 5%;
+        width: 50%;
+    }
+}
+/* CONTENU*/
+.inscrip-cont {
+    margin: 0% 45% 10% 5%;
+    width: 50%;
+    text-align: start;
+}
+/* TITRE */
+.inscrip-cont h2{
+    font-family: 'font-2';
+    font-size: 2vw;
+    padding-top: 8%;
+    opacity: 0.9;
+    word-spacing: 7px;
+    font-weight: normal;
+}
+@media (max-width: 576px) {
+    .inscrip-cont h2{
+        font-size: 4vw;
+        padding-top: 4%;
+    }
+}
+/* PARAGRAPHE */
+.inscrip-cont p{
+    color: var(--primary-white);
+    font-family: 'font-1R';
+    font-size: 1vw;
+    margin-left: 5px;
+    opacity: 0.6;
+}
+@media (max-width: 576px) {
+    .inscrip-cont p{
+        font-size: 2vw;
+        opacity: 0.7;
+        width: 95%;
+        margin: 4% auto 15%;
+    }
+}
+/* LES INPUTS */
+.spiderman-inscript .inscrip-cont .les-input {
+    width: 65%;
+    color: var(--primary-white);
+    margin-top: 10%;
+}
+.spiderman-inscript .inscrip-cont input {
+    margin-bottom: 15px;
+    border-radius: 16px;
+    background-color: transparent;
+    border: 1.5px solid var(--primary-white);
+    width: 79%;
+}
+@media (max-width: 576px) {
+    .spiderman-inscript .inscrip-cont input {
+        width: 100%;
+    }
+}
+.spiderman-inscript .les-input ::placeholder {
+    color: var(--primary-white);
+    opacity: 0.6;
+    font-size: 0.8vw;
+}
+@media (max-width: 576px){
+    .spiderman-inscript .les-input ::placeholder {
+        font-size: 2.1vw;
+    }
+}
+@media (min-width: 576px) and (max-width: 899.98px) {
+    .spiderman-inscript .inscrip-cont .les-input {
+        width: 75%;
+    }
+}
+/* BOUTONS */
+.inscrip-cont .btn-1{
+    color: var(--primary-red);
+    font-family: 'font-1B';
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+    background-color: var(--primary-white);
+    margin: 5% 8%;
+    font-size: 1vw;
+}
+@media (max-width: 576px) {
+    .inscrip-cont .btn-1{
+        width: auto !important;
+        font-size: 2vw;
+        border-radius: 30px;
+        padding: 14px;
+        margin-left: -13%;
+        opacity: 0.7;
+    }
+}
+
+/* BOUTONS CHECK BOX*/
+
+.check-cont form {
+    width: 20px;
+    height: 16px;
+    border: 1px solid;
+}
+@media (max-width: 576px) {
+    /* REGLAGE CHANGEMENT EN RESPONSIVE CHECK-BOX */
+    /* Remarque : ajout media queries dans le bootstrap local ligne 2503 pour enlever le radius par défaut */
+    .check-cont form {
+        min-width: 30px;
+        min-height: 30px;
+        border: 2px solid var(--primary-black);
+    }
+}
+
+/* CONTENEUR DU PARAGRAPHE */
+.check-cont {
+    width: 58%;
+}
+@media (max-width: 576px) {
+    /* REGLAGE RESPONSIVE ALIGNEMENT CONTENEUR DU PARAGRAPHE */
+    .check-cont {
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        margin-left: 37px;
+    }
+}
+/* PARAGRAPHE*/
+.check-cont p {
+    color: var(--primary-white);
+    font-family: 'font-1R';
+    font-size: 1vw;
+    margin-left: 13px;
+    margin-bottom: 0;
+}
+@media (max-width: 576px){
+    .check-cont p {
+        font-size: 2.2vw;
+        margin-left: 11px;
+        text-align: left;
+        opacity: 0.6;
+    }
+}
+/* FOOTER */
+footer {
+    background-color: var(--primary-black);
+}
+/* FOOTER 1 DESKTOP */
+/* BOUTONS DE NAVIGATION */
+.footer-1desktop  {
+    margin: 5% 0% auto;
+}
+.footer-1desktop  .part-1desktop a, .footer-1desktop .part-2desktop a {
+    text-decoration: none;
+    color: var(--primary-white);
+    font-size: 1vw;
+    opacity: 0.7;
+}
+/* INPUT DESKTOP*/
+
+.footer-1desktop  .part-2desktop input {
+    background-color: var(--primary-red);
+    border-radius: 16px; 
+}
+
+.footer-1desktop  .part-2desktop input::placeholder{
+    color: var(--primary-white);
+    font-size: 1vw;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+/* INPUT DESKTOP*/
+
+.footer-1mobile   .part-2mobile input {
+    background-color: var(--primary-red);
+    border-radius: 16px; 
+    width: 100%;
+    border: none;
+}
+.footer-1mobile   .part-2mobile input::placeholder {
+    color: var(--primary-white);
+    font-size: 3.5vw;
+    opacity: 0.6;
+    padding: 0;
+    width: auto;
+    /* Remarque : pour colorer le stroke = petite flèche bas, j'ai modifier la ligne 2424 dans bootstrap */
+}
+
+/* INPUT RESPONSIVE */
+
+@media (max-width: 576px) {
+    .footer-1desktop {
+        display: none;
+    }
+    .footer-1mobile  .part-1mobile a, .footer-1mobile .part-2mobile a {
+        text-decoration: none;
+        color: var(--primary-white);
+        font-size: 2.5vw;
+        opacity: 0.7;
+    }
+    .footer-1mobile   .part-2mobile input {
+        background-color: var(--primary-red);
+        border-radius: 16px; 
+        width: 80%;
+    }
+}
+
+/* LOGOS */
+
+
+@media (min-width: 576px) {
+    .part-logomobile {
+        display: none;
+    }
+    .footer-1mobile {
+        display: none;
+    }
+    .footer-2mobile {
+    display: none;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+   
+    .footer-1mobile   .part-2mobile input{
+        background-color: var(--primary-red);
+        border-radius: 16px; 
+    }
+}
+
+/* ICONES DE RESEAUX SOCIAUX */
+
+.rounded-circle {
+    background-color: var(--primary-red);
+    width: 3%;
+    padding: 3px;
+    margin: 0.50%;
+}
+@media (max-width: 576px) {
+    .rounded-circle {
+        background-color: var(--primary-red);
+        width: 47px;
+        height: 41px;
+        padding: 8px;
+    }
+}
+.footer-2desktop {
+    margin: 2% auto;
+    justify-content: center;
+}
+
+/* TEXTE BAS DU FOOTER */
+.footer-3 {
+    margin: auto;
+    width: auto;
+    color: white;
+    opacity: 0.8;
+}
+.footer-3 p{
+    font-size: 1vw;
+    opacity: 0.6;
+}
+@media (max-width: 576px) {
+    .footer-3 p{
+        font-size: 2.2vw;
+        opacity: 0.8;
+    }
+}
