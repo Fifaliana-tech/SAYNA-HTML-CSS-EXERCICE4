@@ -637,7 +637,12 @@ footer {
     margin: 2% auto;
     justify-content: center;
 }
+@media (min-width: 576px) {
+    .footer-2mobile {
+    display: none;
+    }
 
+}
 /* TEXTE BAS DU FOOTER */
 .footer-3 {
     margin: auto;
@@ -657,6 +662,125 @@ footer {
 }
 /* ---------------------------------CSS : PAGE A PROPOS----------------------------------- */
 /* ---------------------------------CSS : PAGE ADVERSAIRES----------------------------------- */
+/* --BARRE DE NAVIGATION-- */
+.nav-adversaires {
+    background-color: var(--primary-yellow);
+    font-family: 'font-1R';
+}
+@media (max-width: 576px) { 
+    .nav-adversaires {
+        background-color: var(--primary-yellow);
+    }
+}
+
+/* FOOTER */
+.footer-adversaires {
+    background-color: var(--primary-black);
+}
+/* FOOTER 1 DESKTOP */
+/* BOUTONS DE NAVIGATION */
+
+.footer-1desktop-adversaires  .part-1desktop-adversaires a, .footer-1desktop-adversaires .part-2desktop-adversaires a {
+    text-decoration: none;
+    color: var(--primary-white);
+    font-size: 1vw;
+    opacity: 0.9;
+}
+
+/* INPUT DESKTOP*/
+
+.footer-1desktop-adversaires  .part-2desktop-adversaires input {
+    background-color: var(--primary-dark-blue);
+    border-radius: 16px; 
+}
+
+.footer-1desktop-adversaires  .part-2desktop-adversaires input::placeholder{
+    color: var(--primary-white);
+    font-size: 1vw;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+.footer-1mobile-adversaires  .part-2mobile-adversaires input {
+    background-color: var(--primary-dark-blue);
+    border-radius: 16px; 
+    width: 100%;
+    border: none;
+}
+.footer-1mobile-adversaires  .part-2mobile-adversaires input::placeholder {
+    color: var(--primary-white);
+    font-size: 3.5vw;
+    opacity: 0.6;
+    padding: 0;
+    width: auto;
+    /* Remarque : pour colorer le stroke = petite flèche bas, j'ai modifié la ligne 2424 dans bootstrap */
+}
+
+/* INPUT RESPONSIVE */
+
+@media (max-width: 576px) {
+    .footer-1desktop-adversaires {
+        display: none;
+    }
+    .footer-1mobile-adversaires .part-1mobile-adversaires a, .footer-1mobile-adversaires .part-2mobile-adversaires a {
+        text-decoration: none;
+        color: var(--primary-white);
+        font-size: 2.5vw;
+        opacity: 0.9;
+    }
+    .footer-1mobile-adversaires   .part-2mobile-adversaires input {
+        background-color: var(--primary-dark-blue);
+        border-radius: 16px; 
+        width: 80%;
+    }
+}
+
+/* LOGOS */
+
+
+@media (min-width: 576px) {
+    .part-logomobile-adversaires {
+        display: none;
+    }
+    .footer-1mobile-adversaires {
+        display: none;
+    }
+    .footer-2mobile-adversaires {
+    display: none;
+    }
+
+}
+
+
+/* ICONES DE RESEAUX SOCIAUX */
+.footer-2desktop-adversaires {
+    margin: 2% auto;
+    justify-content: center;
+}
+@media (min-width: 576px) {
+    .footer-2mobile-adversaires {
+        display: none;
+    }
+
+}
+.footer-2desktop-adversaires .rounded-circle {
+    background-color: var(--primary-dark-blue);
+    width: 3%;
+    padding: 3px;
+    margin: 0.50%;
+}
+@media (max-width: 576px) {
+    .footer-2desktop-adversaires .rounded-circle {
+        background-color: var(--primary-dark-blue);
+        width: 36px;
+        height: 32px;
+        padding: 8px;
+    }
+}
+
 /* ---------------------------------CSS : PAGE BONUS (ligne 668 à 718)----------------------------------- */
 .heros-cont {
     background-image: url(../Illustration/img-35.png);
@@ -765,7 +889,16 @@ footer {
     width: auto;
     /* Remarque : pour colorer le stroke = petite flèche bas, j'ai modifié la ligne 2424 dans bootstrap */
 }
+.footer-2desktop-heros {
+    margin: 2% auto;
+    justify-content: center;
+}
+@media (min-width: 576px) {
+    .footer-2mobile-heros {
+    display: none;
+    }
 
+}
 /* INPUT RESPONSIVE */
 
 @media (max-width: 576px) {
@@ -778,7 +911,7 @@ footer {
         font-size: 2.5vw;
         opacity: 0.9;
     }
-    .footer-1mobile-heros   .part-2mobile input {
+    .footer-1mobile-heros   .part-2mobileheros  input {
         background-color: var(--primary-dark-blue);
         border-radius: 16px; 
         width: 80%;
@@ -804,17 +937,27 @@ footer {
 
 /* ICONES DE RESEAUX SOCIAUX */
 
-.rounded-circle-heros {
+.footer-2desktop-heros .rounded-circle{
     background-color: var(--primary-dark-blue);
     width: 3%;
     padding: 3px;
     margin: 0.50%;
 }
 @media (max-width: 576px) {
-    .rounded-circle {
+    .footer-2desktop-heros .rounded-circle {
         background-color: var(--primary-dark-blue);
         width: 36px;
         height: 32px;
         padding: 8px;
     }
+}
+.footer-2desktop-heros {
+    margin: 2% auto;
+    justify-content: center;
+}
+@media (min-width: 576px) {
+    .footer-2mobile-heros {
+    display: none;
+    }
+
 }
