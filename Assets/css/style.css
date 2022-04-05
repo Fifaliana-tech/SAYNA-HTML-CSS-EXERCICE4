@@ -636,8 +636,8 @@ footer {
 @media (max-width: 576px) {
     .rounded-circle {
         background-color: var(--primary-red);
-        width: 47px;
-        height: 41px;
+        width: 36px;
+        height: 32px;
         padding: 8px;
     }
 }
@@ -666,4 +666,54 @@ footer {
 /* ---------------------------------CSS : PAGE A PROPOS----------------------------------- */
 /* ---------------------------------CSS : PAGE ADVERSAIRES----------------------------------- */
 /* ---------------------------------CSS : PAGE HEROS----------------------------------- */
+.heros-cont {
+    background-image: url(../Illustration/img-35.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heros-cont .container {
+    height: 100vh;
+    padding: 47% 10% 28% 10%;
+}
+@media (max-width: 900px) {
+    .heros-cont .container {
+        height: 100vh;
+        padding: 404px 35% 2% 10%;
+    }
+}
+/* RESPONSIVE FONT H1 */
+.heros-cont h1 {
+    font-family: 'font-2';
+    font-size: 6.5vw;
+    color: var(--primary-white);
+    opacity: 0.8;
+}
+@media (max-width: 900px) {
+    .heros-cont h1 {
+        font-size: 5vw;
+        opacity: 0.8;
+    }
+}
+/* VERSION DESKTOP FONT H2 */
+.heros-cont .h2-desktop{
+    padding-top: 7%;
+    opacity: 0.8;
+}
+.heros-cont .h2-mobile {
+    padding-top: 2%;
+    font-size: 1.7vw;
+    opacity: 0.8;
+}
+/* VERSION MOBILE FONT H2 */
+@media (max-width: 900px) {
+    .heros-cont .h2-desktop {
+        display: none;
+    }
+}
+@media (min-width: 900px) {
+    .heros-cont .h2-mobile {
+        display: none;
+    }
+}
 /* ---------------------------------CSS : PAGE BONUS----------------------------------- */
