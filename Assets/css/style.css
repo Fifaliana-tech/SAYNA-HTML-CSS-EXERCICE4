@@ -1021,6 +1021,99 @@ footer {
 .spid-cont-text-heros2 p strong {
     opacity: 1;
 }
+/* CONTENU JAMAIS SEUL : VERSION WEB */
+@media (min-width: 576px) { 
+    .spid-cont-jamais-seul-heros2M {
+        display: none;
+    }
+}
+.spid-cont-jamais-seul-heros2 {
+    background-color: var(--primary-dark-blue);
+}
+.spid-cont-jamais-seul-heros2 .container {
+    text-align: justify;
+    padding: 30px;
+}
+
+.spid-cont-jamais-seul-heros2 p {
+    color: var(--primary-white);
+    opacity: 0.7;
+}
+
+/* LES TITRES */
+.spid-cont-jamais-seul-heros2 h1 {
+    font-family: 'font-2';
+    color: var(--primary-white);
+    font-size: 3vw;
+}
+.spid-cont-jamais-seul-heros2 h2 {
+    font-family: 'font-1R';
+    color: var(--primary-white);
+    font-size: 2vw;
+}
+.spid-cont-jamais-seul-heros2 #image1 {
+    width: 80%;
+    height: 80%;
+    margin-left: -5%;
+}
+.spid-cont-jamais-seul-heros2 #image2 {
+    width: 64%;
+    height: 80%;
+    margin-left: 39%;
+    margin-top: -22%;
+}
+
+/* CONTENU JAMAIS SEUL : VERSION MOBILE */
+.spid-cont-jamais-seul-heros2M {
+    background-color: var(--primary-dark-blue);
+}
+@media (max-width: 576px) { 
+    .spid-cont-jamais-seul-heros2 {
+        display: none;
+    }
+}
+@media (max-width: 576px) { 
+    .spid-cont-jamais-seul-heros2M {
+        display: block;
+        padding-bottom: 0;
+    }
+}
+/* LES TITRES */
+.spid-cont-jamais-seul-heros2M h1 {
+    font-family: 'font-2';
+    color: var(--primary-white);
+    font-size: 3vw;
+    text-align: center;
+}
+.spid-cont-jamais-seul-heros2M h2 {
+    font-family: 'font-1R';
+    color: var(--primary-white);
+    font-size: 2vw;
+    text-align: center;
+}
+/* LE PARAGRAPHE */
+@media (max-width: 576px) { 
+    .spid-cont-jamais-seul-heros2M p {
+        font-size: 2vw;
+        color: var(--primary-white);
+        opacity: 0.7;
+        text-align: justify;
+    }
+}
+
+/* LES PHOTOS */
+.spid-cont-jamais-seul-heros2M #image1, .spid-cont-jamais-seul-heros2M #image2 {
+    width: 80%;
+    height: 80%;
+}
+.spid-cont-jamais-seul-heros2M #image2 {
+    margin-top: 5%;
+}
+.spid-cont-jamais-seul-heros2M #image3, .spid-cont-jamais-seul-heros2M #image4, .spid-cont-jamais-seul-heros2M #image5 {
+    width: 28%;
+    height: 80%;
+    margin: 2.3%;
+}
 /* FOOTER */
 .footer-heros {
     background-color: var(--primary-black);
