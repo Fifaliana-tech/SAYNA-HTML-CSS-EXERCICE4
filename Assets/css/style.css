@@ -1045,22 +1045,29 @@ footer {
     font-family: 'font-2';
     color: var(--primary-white);
     font-size: 3vw;
+    margin-bottom: 0px;
 }
 .spid-cont-jamais-seul-heros2 h2 {
     font-family: 'font-1R';
     color: var(--primary-white);
     font-size: 2vw;
 }
+/* LES IMAGES */
 .spid-cont-jamais-seul-heros2 #image1 {
-    width: 80%;
+    width: 74%;
     height: 80%;
-    margin-left: -5%;
+    margin-left: 2%;
 }
 .spid-cont-jamais-seul-heros2 #image2 {
-    width: 64%;
+    width: 58%;
     height: 80%;
-    margin-left: 39%;
+    margin-left: 43%;
     margin-top: -22%;
+}
+.spid-cont-jamais-seul-heros2 #image3, .spid-cont-jamais-seul-heros2 #image4, .spid-cont-jamais-seul-heros2 #image5 {
+    width: 44%;
+    height: 80%;
+    margin: 2.3%;
 }
 
 /* CONTENU JAMAIS SEUL : VERSION MOBILE */
