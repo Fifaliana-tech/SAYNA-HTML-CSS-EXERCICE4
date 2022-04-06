@@ -843,6 +843,50 @@ footer {
         background-color: var(--primary-dark-blue);
     }
 }
+/* REGLAGE RESPONSIVE BACKGROUND IMAGE*/
+
+.spid-cont-heros  {
+    background-image: url(../Illustration/img19.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* LES TITRES */
+
+.spid-cont-heros h1 {
+    font-family: 'font-2';
+    font-size: 5vw;
+    color: var(--primary-white);
+}
+@media (max-width: 576px) { 
+    .spid-cont-heros h1 {
+        font-size: 6vw;
+    }
+}
+.spid-cont-heros h2 {
+    font-family: 'font-1B';
+    font-size: 1.7vw;
+    color: var(--primary-white);
+    margin-top: 3%;
+}
+
+/* VALEURS A DEFENDRE */
+.spid-val-heros {
+    background-color: var(--primary-dark-blue)
+}
+.spid-val-heros h1 {
+    font-family: 'font-2';
+    font-size: 2.5vw;
+    color: var(--primary-white);
+}
+.spid-val-heros h2 {
+    font-family: 'font-1B';
+    font-size: 1.7vw;
+    color: var(--primary-white);
+}
+.spid-val-heros p{
+    color: var(--primary-white);
+}
 
 /* FOOTER */
 .footer-heros {
