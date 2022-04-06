@@ -1006,11 +1006,17 @@ footer {
 @media (max-width: 576px) { 
     .spid-cont-text-heros2 {
         display: block;
+        padding-bottom: 0;
     }
 }
 .spid-cont-text-heros2 p {
     color: var(--primary-white);
-    opacity: 0.6;
+    opacity: 0.7;
+}
+@media (max-width: 576px) { 
+    .spid-cont-text-heros2 p {
+        font-size: 2vw;
+    }
 }
 .spid-cont-text-heros2 p strong {
     opacity: 1;
