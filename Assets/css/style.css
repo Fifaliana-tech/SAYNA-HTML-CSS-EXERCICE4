@@ -874,20 +874,72 @@ footer {
 .spid-val-heros {
     background-color: var(--primary-dark-blue)
 }
+@media (max-width: 576px) {
+    .spid-val-heros {
+        display: block;
+    }
+}
+
+.textes-cont-heros {
+    text-align: justify;
+}
+
+@media (max-width: 576px) {
+    .textes-cont-heros{
+        width: 80%;
+        text-align: justify;
+        margin: auto;
+    }
+}
+
+/* TITRES */
 .spid-val-heros h1 {
     font-family: 'font-2';
     font-size: 2.5vw;
     color: var(--primary-white);
+    opacity: 0.9;
+}
+@media (max-width: 576px) {
+    .textes-cont-heros h1 {
+        text-align: center;
+        font-size: 5vw;
+    }
 }
 .spid-val-heros h2 {
     font-family: 'font-1B';
-    font-size: 1.7vw;
+    font-size: 1.2vw;
     color: var(--primary-white);
+    opacity: 0.9;
 }
-.spid-val-heros p{
+@media (max-width: 576px) {
+    .textes-cont-heros h2 {
+        text-align: center;
+        font-size: 2vw;
+        margin-top: 5%;
+    }
+}
+/* LES TEXTES */
+.spid-val-heros p {
     color: var(--primary-white);
+    opacity: 0.9;
 }
 
+@media (max-width: 576px) {
+    .spid-val-heros p {
+        font-size: 1.5vw;
+    }
+}
+/* VIDEO */
+.video-cont-heros video {
+    width : 94%;
+    height: auto;
+}
+@media (max-width: 576px) {
+    .video-cont-heros {
+        width: 80%;
+        margin: auto;
+    }
+}
 /* FOOTER */
 .footer-heros {
     background-color: var(--primary-black);
