@@ -696,7 +696,7 @@ footer {
 /* INPUT DESKTOP*/
 
 .footer-1desktop-adversaires  .part-2desktop-adversaires input {
-    background-color: var(--primary-dark-blue);
+    background-color: var(--primary-yellow);
     border-radius: 16px; 
 }
 
@@ -711,7 +711,7 @@ footer {
 
 
 .footer-1mobile-adversaires  .part-2mobile-adversaires input {
-    background-color: var(--primary-dark-blue);
+    background-color: var(--primary-yellow);
     border-radius: 16px; 
     width: 100%;
     border: none;
@@ -773,14 +773,14 @@ footer {
 
 }
 .footer-2desktop-adversaires .rounded-circle {
-    background-color: var(--primary-dark-blue);
+    background-color: var(--primary-yellow);
     width: 3%;
     padding: 3px;
     margin: 0.50%;
 }
 @media (max-width: 576px) {
     .footer-2desktop-adversaires .rounded-circle {
-        background-color: var(--primary-dark-blue);
+        background-color: var(--primary-yellow);
         width: 36px;
         height: 32px;
         padding: 8px;
@@ -1322,7 +1322,7 @@ footer {
 
 /* ICONES DE RESEAUX SOCIAUX */
 
-.footer-2desktop-heros .rounded-circle{
+.footer-2desktop-heros .rounded-circle {
     background-color: var(--primary-dark-blue);
     width: 3%;
     padding: 3px;
@@ -1382,11 +1382,6 @@ footer {
     background-color: var(--primary-yellow);
 }
 
-/* PHOTOS */
-/* .images-cartes-adv {
-    width: 201px;
-    height: 117px;
-} */
 .images-cartes-adv img {
     width: 100%;
     height: auto;
@@ -1398,14 +1393,42 @@ footer {
     border-top: none;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    text-align: left;
+    padding: 5%;
+    font-family: 'font-1R';
+    height: 70%;
 }
-
+/* LES TITRES */
+.textes-cartes-adv h3 {
+    font-family: 'font-1B';
+    font-size: 2vw;
+    text-align: center;
+}
+@media (max-width: 576px) {
+    .textes-cartes-adv h3 {
+        font-size: 2.5vw;
+    }
+}
+/* LES PARAGRAPHES */
+.textes-cartes-adv p {
+    font-size: 1.3vw;
+    line-height: 2;
+}
+@media (max-width: 576px) {
+    .textes-cartes-adv p {
+        font-size: 1.7vw;
+    }
+}
 /* LIGNES DE CARTES */
 .spid-card-adv .card-ligne1-adv {
     text-align: center;
+    padding: 48px;
 }
-.card-ligne1-adv {
-
+@media (max-width: 576px) {
+    .spid-card-adv .card-ligne1-adv {
+        padding: 0;
+        margin: 0;
+    }
 }
 .position-card-ligne1{
     margin: 22px;
@@ -1415,10 +1438,26 @@ footer {
         display: block;
         margin: 30px;
     }
+
     @media (max-width: 576px) {
-        .cartes-adv{
+        .cartes-adv {
             margin-bottom: 10%;
         }
+    }
+}
+.version-desktop {
+}
+@media (min-width: 576px) {
+    .version-mobile {
+        display: none;
+    }
+}
+
+.version-mobile {
+}
+@media (max-width: 576px) {
+    .version-desktop{
+        display: none;
     }
 }
 
