@@ -855,7 +855,8 @@ footer {
     .nav-heros {
         background : transparent;
         margin-top: 8%;
-        margin-left: 5%;
+        margin-left: 8%;
+        position: absolute;
     }
 }
 /* REGLAGE RESPONSIVE BACKGROUND IMAGE*/
@@ -1368,7 +1369,7 @@ footer {
 /* LA BANNIERE */
 .spid-cont-adv .banner {
     height: 38vh;
-    margin: 48px;
+    margin: 122px;
     padding: auto 12px;
 }
 @media (max-width: 576px) {
