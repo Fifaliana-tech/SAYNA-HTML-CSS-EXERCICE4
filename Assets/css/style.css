@@ -667,8 +667,7 @@ footer {
     width: 100%;
     margin: auto;
 }
-/* ---------------------------------CSS : PAGE A PROPOS----------------------------------- */
-/* ---------------------------------CSS : PAGE ADVERSAIRES----------------------------------- */
+
 /* --BARRE DE NAVIGATION-- */
 .nav-adversaires {
     background-color: var(--primary-yellow);
@@ -788,7 +787,7 @@ footer {
     }
 }
 
-/* ---------------------------------CSS : PAGE BONUS (ligne 668 à 718)----------------------------------- */
+/* ---------------------------------CSS : PAGE BONUS (ligne 791 à 840)----------------------------------- */
 .heros-cont {
     background-image: url(../Illustration/img-35.png);
     background-repeat: no-repeat;
@@ -839,7 +838,7 @@ footer {
         display: none;
     }
 }
-/* ---------------------------------CSS : PAGE HEROS----------------------------------- */
+/* ---------------------------------CSS : PAGE HEROS (ligne 844 à 1358) ----------------------------------- */
 /* --BARRE DE NAVIGATION-- */
 .nav-heros {
     background-color: var(--primary-dark-blue);
@@ -1346,3 +1345,70 @@ footer {
         display: none;
     }
 }
+/* ---------------------------------CSS : PAGE ADVERSAIRES----------------------------------- */
+.spid-cont-adv {
+    background-image: url(../Illustration/img7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* LA BANNIERE */
+.spid-cont-adv .banner {
+    height: 38vh;
+    margin: 48px;
+    padding: auto 12px;
+}
+/* LES TITRES */
+
+.spid-cont-adv h1 {
+    font-family: 'font-2';
+    font-size: 5vw;
+    color: var(--primary-white);
+}
+@media (max-width: 576px) { 
+    .spid-cont-adv h1 {
+        font-size: 6vw;
+    }
+}
+.spid-cont-adv h2 {
+    font-family: 'font-1B';
+    font-size: 1.7vw;
+    color: var(--primary-white);
+    margin-top: 3%;
+}
+
+/* LES CARTES */
+/* BACKGROUND */
+.spid-card-adv {
+    background-color: var(--primary-yellow);
+}
+
+/* PHOTOS */
+/* .images-cartes-adv {
+    width: 201px;
+    height: 117px;
+} */
+.images-cartes-adv img {
+    width: 100%;
+    height: auto;
+}
+
+/* TEXTES CARTES ADV */
+.textes-cartes-adv {
+    border: 4px solid black;
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* LIGNES DE CARTES */
+.spid-card-adv .card-ligne1-adv {
+    text-align: center;
+}
+.card-ligne1-adv {
+
+}
+.position-card-ligne1{
+    margin: 22px;
+}
+
+
+/* ---------------------------------CSS : PAGE A PROPOS----------------------------------- */

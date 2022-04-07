@@ -19,20 +19,6 @@
 
 
 @media (max-width: 575.98px) { 
-    nav {
-        background: black;
-    }
-    
-    .descrip2 {
-        margin: 15% 12px;
-    }
-    .spiderman {
-        min-height: 204px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        display: flow-root;
-        width: 100%;
-    }
     .descrip {
         display : none;
     }
@@ -46,19 +32,6 @@
     .descrip {
         margin: 30% 12px;
     }
-    /* .spid-cont h1 {
-        font-family: 'font-2';
-        font-size: 42px;
-        color: var(--primary-white);
-    }
-    .spid-cont h2 {
-        font-family: 'font-1B';
-        font-size: 14px;
-        color: var(--primary-white);
-        margin-top: 20px;
-    } */
-    
-    
 }
 
  @media (min-width: 1400px) { 
@@ -130,9 +103,12 @@
     .descrip {
         margin: 30% 12px;
     }
-    .spiderman {
-    
     .descrip2 {
         display : none;
     }
+
 }
+
+
+
+
