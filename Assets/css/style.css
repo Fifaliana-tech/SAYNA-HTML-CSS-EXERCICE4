@@ -57,13 +57,16 @@ p {
 }
 /* ---------------------------------CSS : PAGE HOME (ligne 58 à 665)----------------------------------- */
 /* --BARRE DE NAVIGATION-- */
-nav {
+.nav-home {
     background-color: var(--primary-red);
     font-family: 'font-1R';
 }
 @media (max-width: 576px) { 
-    nav {
-        background-color: var(--primary-black);
+    .nav-home {
+        background : transparent;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 5%;
     }
 }
 /* Partie logo */
@@ -74,8 +77,8 @@ nav {
 }
 @media (max-width: 576px) { 
     #Logo-SAYNA {
-        width: 10vw;
-        height: 10vw;
+        width: 6vw;
+        height: 8vw;
     }
 }
 #Logo-X {
@@ -84,8 +87,9 @@ nav {
 }
 @media (max-width: 576px) { 
     #Logo-X{
-        width: 4vw;
-        height: 4vw;
+        width: 2vw;
+        height: 3vw;
+        margin: 10px;
     }
 }
 #Logo-Marvel {
@@ -94,8 +98,8 @@ nav {
 }
 @media (max-width: 576px) { 
     #Logo-Marvel {
-        width: 28vw;
-        height: 11vw;
+        width: 21vw;
+        height: 8vw;
     }
 }
 
@@ -675,7 +679,10 @@ footer {
 }
 @media (max-width: 576px) { 
     .nav-adversaires {
-        background-color: var(--primary-yellow);
+        background-color: transparent;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 5%;
     }
 }
 
@@ -846,7 +853,9 @@ footer {
 }
 @media (max-width: 576px) { 
     .nav-heros {
-        background-color: var(--primary-dark-blue);
+        background : transparent;
+        margin-top: 8%;
+        margin-left: 5%;
     }
 }
 /* REGLAGE RESPONSIVE BACKGROUND IMAGE*/
@@ -1356,6 +1365,11 @@ footer {
     height: 38vh;
     margin: 48px;
     padding: auto 12px;
+}
+@media (max-width: 576px) {
+    .spid-cont-adv .banner {
+        padding-top: 48px;
+    }
 }
 /* LES TITRES */
 
