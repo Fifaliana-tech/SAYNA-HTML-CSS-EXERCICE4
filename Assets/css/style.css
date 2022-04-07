@@ -1144,6 +1144,11 @@ footer {
     background-image: url(../Illustration/img32.png);
     background-size: cover;
 }
+@media (max-width: 576px){
+    .spid-cont-avengers {
+        display: none;
+    }
+}
 /* PARTIE DROITE */
 .spid-cont-avengers .partD-haut {
     text-align: center;
