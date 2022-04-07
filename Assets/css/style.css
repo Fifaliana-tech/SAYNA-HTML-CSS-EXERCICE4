@@ -1399,6 +1399,7 @@ footer {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
 /* LIGNES DE CARTES */
 .spid-card-adv .card-ligne1-adv {
     text-align: center;
@@ -1409,6 +1410,16 @@ footer {
 .position-card-ligne1{
     margin: 22px;
 }
-
+@media (max-width: 576px) {
+    .position-card-ligne1{
+        display: block;
+        margin: 30px;
+    }
+    @media (max-width: 576px) {
+        .cartes-adv{
+            margin-bottom: 10%;
+        }
+    }
+}
 
 /* ---------------------------------CSS : PAGE A PROPOS----------------------------------- */
