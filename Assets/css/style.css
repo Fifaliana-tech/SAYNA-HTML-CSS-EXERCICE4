@@ -1121,6 +1121,39 @@ footer {
     height: 80%;
     margin: 2.3%;
 }
+/* CONTENU lES AVENGERS : VERSION WEB */
+.spid-cont-avengers {
+    background-color: var(--primary-red);
+}
+.spid-cont-avengers #image26, .spid-cont-avengers #image27, .spid-cont-avengers #image28, .spid-cont-avengers #image29, .spid-cont-avengers #image30, .spid-cont-avengers #image31 {
+    width: 87%;
+    margin-bottom: 10%;
+}
+/* PARTIE GAUCHE */
+.spid-cont-avengers .partG {
+    background-image: url(../Illustration/img32.png);
+    background-size: cover;
+}
+/* PARTIE DROITE */
+.spid-cont-avengers .partD-haut {
+    text-align: center;
+}
+/* LES TITRES */
+.spid-cont-avengers h1 {
+    font-family: 'font-2';
+    color: var(--primary-white);
+    font-size: 3vw;
+    text-align: start;
+    margin-bottom: 8%;
+    padding-left: 6%;
+}
+/* TEXTES */
+.spid-cont-avengers p {
+    color: var(--primary-white);
+    text-align: justify;
+    opacity: 0.7;
+    padding-top: 25px;
+}
 /* FOOTER */
 .footer-heros {
     background-color: var(--primary-black);
