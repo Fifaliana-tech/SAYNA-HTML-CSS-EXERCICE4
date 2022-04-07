@@ -1401,7 +1401,14 @@ footer {
 .spid-card-adv {
     background-color: var(--primary-yellow);
 }
-
+.cartes-adv{
+    margin: 0px 10px 20px 10px;
+}
+@media (max-width: 576px) {
+    .cartes-adv {
+        margin-bottom: 10%;
+    }
+}
 .images-cartes-adv img {
     width: 100%;
     height: auto;
@@ -1417,6 +1424,7 @@ footer {
     padding: 5%;
     font-family: 'font-1R';
     height: 70%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 /* LES TITRES */
 .textes-cartes-adv h3 {
