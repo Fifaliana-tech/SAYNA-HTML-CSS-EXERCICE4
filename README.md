@@ -9,6 +9,7 @@ Durée de l’exercice :  7 jours
 
 Du 23/03/2022 au 01/04/2022 (reporté au 6 avril 2022 à cause des problèmes de connexion, jour férié du 29 mars et cérémonie rentrée officielle D-CLIC du vendredi 1er avril 2022)
 Heure limite du dépôt : 23h59 
+
 I - Énoncé
 
 Dans le but de confirmer les compétences de base en HTML5 & CSS3 mais également d’approfondir certaines notions de développement, vous allez réaliser un site internet sur l’univers Spiderman (univers cinématographique).
