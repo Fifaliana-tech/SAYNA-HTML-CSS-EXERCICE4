@@ -1574,7 +1574,7 @@ footer {
 /* LE PARAGRAPHE */
 .spid-cont-apropos-rouge p {
     font-family: 'font-1R';
-    font-size: 1.5vw;
+    font-size: 1vw;
     color: var(--primary-white);
     opacity: 0.8;
     text-align: start;
@@ -1605,7 +1605,7 @@ footer {
 .spid-cont-apropos-rouge input::placeholder {
     padding-left: 6%;
     color: var(--primary-white);
-    font-size: 1.5vw;
+    font-size: 1vw;
     opacity: 0.8;
     padding-top: 0px;
     padding-bottom: 2px;
@@ -1626,7 +1626,7 @@ footer {
     height: 100px;
     /* CONTENU DU TEXTAREA */
     color: var(--primary-white);
-    font-size: 1.5vw;
+    font-size: 1vw;
     opacity: 0.7;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1644,7 +1644,7 @@ footer {
     width: 35%;
     border-radius: 13px;
     padding: 2px;
-    font-size: 1.5vw;
+    font-size: 1vw;
     color: white;
     opacity: 0.8;
 }
@@ -1707,7 +1707,7 @@ footer {
 /* LE PARAGRAPHE */
 .spid-cont-apropos-bleue p {
     font-family: 'font-1R';
-    font-size: 1.5vw;
+    font-size: 1vw;
     color: var(--primary-white);
     opacity: 0.8;
     text-align: justify;
@@ -1716,6 +1716,7 @@ footer {
 @media (max-width: 575.98px) {
     .spid-cont-apropos-bleue p {
         text-align: center;
+        font-size: 2vw;
         margin-bottom: 0;
         opacity: 0.7;
     }
@@ -1730,8 +1731,8 @@ footer {
 .liste ul li {
     font-family: 'font-1R';
     color: var(--primary-white);
-    font-size: 1.5vw;
     opacity: 0.8;
+    font-size: 1vw;
 }
 .liste ul {
     padding-left: 16px;
@@ -1740,6 +1741,7 @@ footer {
     .liste ul li {
         text-align: center;
         list-style-position: inside;
+        font-size: 2vw;
     }
     .liste ul {
         padding-left: 0px;
